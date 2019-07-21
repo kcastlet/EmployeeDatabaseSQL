@@ -26,15 +26,15 @@ CREATE TABLE "department" (
 CREATE TABLE "dept_emp" (
     "emp_no" int   NOT NULL,
     "dept_no" varchar   NOT NULL,
-    "from_data" date   NOT NULL,
-    "to_data" date   NOT NULL
+    "from_date" date   NOT NULL,
+    "to_date" date   NOT NULL
 );
 
 CREATE TABLE "dept_manager" (
     "dept_no" varchar   NOT NULL,
     "emp_no" int   NOT NULL,
-    "from_data" date   NOT NULL,
-    "to_data" date   NOT NULL
+    "from_date" date   NOT NULL,
+    "to_date" date   NOT NULL
 );
 
 CREATE TABLE "employees" (
